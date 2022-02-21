@@ -1,0 +1,135 @@
+
+* {
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+        /* header section */
+.header {
+  height: 69px;
+  width: 1200px;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+  z-index: 2;
+}
+
+.header img {
+  height: 50px;
+  display: inline;
+  align-self: center;
+}
+
+.menu {
+  display: inline;
+  height: 69px;
+}
+
+.menu li{
+  display: inline-flex;
+  padding: 10px 10px;
+}
+
+        /*mission section*/
+
+.mission {
+  display: flex;
+  position: relative;
+  top: 70px;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.mission-headings {
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+          /*tea of the month section*/
+
+.featured {
+  display: block;
+  width: 1000px;
+  margin-top: 100px;
+  justify-content: center;
+  padding-left: 100px;
+}
+
+.text {
+  display: inline-block;
+  justify-content: center;
+}
+
+.photos {
+  font-weight: bold;
+  display: flex;
+  max-width: 1000px;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.tea {
+  flex-direction: column;
+}
+
+.thumbs{
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+          /*locations section*/
+
+.locations{
+  background-image: url("../images/img-mission-background.jpg");
+  height: 500px;
+  width: 1200px;
+  display: block;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.locations h2 {
+  display: block;
+  bottom: 15px;
+  width: 100%;
+  align-self: center;
+  background-color: transparent;
+}
+
+.locks {
+  display: inline-block;
+  width: 300px;
+  height: 200px;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding-top: 18px;
+  margin: 20px;
+}
+
+.font {
+  font-size: 0.9em;
+  text-align: center;
+  font-weight: normal;
+  }
+
+  .contact {
+    width: 1200px;
+    height: 200px;
+  }
+
+  .copyright {
+    display: flex;
+    align-self: flex-start;
+    padding-left: 20px;
+  }
